@@ -41,3 +41,19 @@ The file `ICMPtraceroute.py` contains starter code for the client-side behavior 
 
 ### Optional Feature
 Currently the application only prints out a list of ip addresses of all the routers along the path from source to the destination. Try using the `gethostbyname(...)` method to print out the names of each intermediate route along the route.
+
+## Grading Rubric
+
+Your work on this project will be graded on a ten-point scale. Fractional points may be awarded.
+
+_0 pts:_ No deliverables were received by the due date or requested extension date.
+
+_2 pts:_ Incomplete deliverables were received by the due date or extension date.
+
+_4 pts:_ Required deliverables were received but are deficient in various ways (e.g., incomplete documentation, code doesn’t run)
+
+_6 pts:_ Complete and adequate deliverables. Code runs but is deficient in various ways.
+
+_8 pts:_ Code runs and does most but not all of what is required.
+
+_10 pts:_ Nailed it. Complete deliverables, code runs and does what is required.
