@@ -113,4 +113,7 @@ def get_route(hostname):
             finally:
                 mySocket.close()
 
-get_route("google.com")
+# Runs program
+if __name__ == "__main__":
+    target = sys.argv[1]
+    get_route(target)
