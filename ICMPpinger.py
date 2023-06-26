@@ -1,5 +1,5 @@
 # Attribution: this assignment is based on ICMP Pinger Lab from Computer Networking: a Top-Down Approach by Jim Kurose and Keith Ross. 
-# It was modified for use in CSC249: Networks at Smith College by R. Jordan Crouser in Fall 2022
+# It was modified for use in CSC249: Networks at Smith College by R. Jordan Crouser in Fall 2022, and by Brant Cheikes for Fall 2023.
 
 from socket import * 
 import os
@@ -121,23 +121,26 @@ def doOnePing(destAddr, timeout):
     mySocket.close() 
     return delay
 
-
-def ping(host, timeout=1):
+def ping(host, timeout=1, repeat=3):
 
     # timeout=1 means: If one second goes by without a reply from the server,
-
     # the client assumes that either the client's ping or the server's pong is lost 
     dest = gethostbyname(host)
-    print("Pinging " + dest + " using Python:") 
+    print("Pinging " + host + " [" + dest + "]", repeat, "times using Python:") 
     print("")
 
     # Send ping requests to a server separated by approximately one second 
-    while True :
+    # Do this only a fixed number of times as determined by 'repeat' argument
+    numPings = 1
+    while (numPings <= repeat) :
         delay = doOnePing(dest, timeout) 
-        print(delay)
+        print("Ping", numPings, "RTT", delay)
         time.sleep(1) # one second 
+        numPings += 1
     return delay
 
 # Runs program
 if __name__ == "__main__":
-    ping("google.com")
+    # get target address from command line
+    target = sys.argv[1]
+    ping(target)
