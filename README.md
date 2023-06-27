@@ -60,7 +60,7 @@ Currently the application only prints out a list of ip addresses of all the rout
 ### Traceroute Performance Data Collection
 When you think your traceroute program is working properly, systematically run it against the ten domains in your spreadsheet. **Capture the output of this activity** as this will be one of your project deliverables. If you are uncertain of whether your program is performing correctly, you can always compare its output to that of the standard traceroute application that is built into most operating systems. Augment your spreadsheet for each target by adding the date/time of your trace, the measured RTT of the final hop in the trace, and the total number of hops needed to reach the target.
 
-## Performance Analysis
+## Part 3: Performance Analysis
 At this point, you have built your own `ping` and `traceroute` utilities, tested them against the same set of ten target domains, and collected result data in a spreadsheet. Perform the following analyses:
 
 * Using the pinger data, draw or create a scatterplot with the **Average RTT in milliseconds** on the Y-axis, and the **geographic distance in miles** on the X-axis. Save this scatterplot to be uploaded as one of your deliverables.
@@ -85,8 +85,8 @@ All work must be submitted via Gradescope.
 You must submit these work products:
 
 1. Source code for your ping and traceroute utilities. Ideally, this will be a link to a public Git code repo you have created for this project.
-2. Command line capture of ping output tested against ten (10) different IP addresses. 
-3. Command line capture of traceroute output tested against the same ten (10) IP addresses.
+2. Execution trace of ping output tested against ten (10) different IP addresses. 
+3. Execution trace of traceroute output tested against the same ten (10) IP addresses.
 4. Spreadsheet containing all ping and traceroute performance data.
 5. Ping analysis: scatterplot plus answers to the two associated questions.
 6. Traceroute analysis: scatterplot plus answers to the two associated questions.
