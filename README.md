@@ -78,7 +78,7 @@ At this point, you have built your own `ping` and `traceroute` utilities, tested
 2. Why do you think you observe this trend (or lack thereof)?
 
 ## Deliverables
-Your work on this project must be submitted for grading by WEDNESDAY 10/25 at 11:59PM. Extensions may be obtained by following the late submission policy [https://docs.google.com/document/d/1Fx0iviSFzelwKQWx-QmeSulg4MwX9xXS].
+Your work on this project must be submitted for grading by WEDNESDAY 11/8 at 11:59PM. Extensions may be obtained by following the late submission policy [https://docs.google.com/document/d/1Fx0iviSFzelwKQWx-QmeSulg4MwX9xXS].
 
 All work must be submitted via Gradescope.
 
