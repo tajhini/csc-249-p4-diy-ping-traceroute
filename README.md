@@ -1,4 +1,4 @@
-# CSC 249 - Project 3 - ICMP Ping and Traceroute
+# CSC 249 - Project 4 - ICMP Ping and Traceroute
 
 _Attribution: this assignment is based on ICMP Pinger Lab and ICMP Traceroute Lab from Computer Networking: a Top-Down Approach by Jim Kurose and Keith Ross. It was modified for use in CSC249: Networks at Smith College by R. Jordan Crouser in Fall 2022, and further modified by B. Cheikes for use in Fall 2023._
 
@@ -78,9 +78,9 @@ At this point, you have built your own `ping` and `traceroute` utilities, tested
 2. Why do you think you observe this trend (or lack thereof)?
 
 ## Deliverables
-Your work on this project must be submitted for grading by WEDNESDAY 11/8 at 11:59PM. Extensions may be obtained by following the late submission policy [https://docs.google.com/document/d/1Fx0iviSFzelwKQWx-QmeSulg4MwX9xXS].
+Your work on this project must be submitted for grading on the last day of classes - THURSDAY DECEMBER 14th at 11:59PM. Because this is the last day of the class before finals, **no extensions will be available.** Work submitted after the due date will not be graded and will receive a score of zero. 
 
-All work must be submitted via Gradescope.
+All work must be submitted via Gradescope. This project counts for 15 points towards your final course grade.
 
 You must submit these work products:
 
