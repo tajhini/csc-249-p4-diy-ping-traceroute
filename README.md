@@ -87,9 +87,11 @@ You must submit these work products:
 1. Source code for your ping and traceroute utilities. Ideally, this will be a link to a public Git code repo you have created for this project.
 2. Execution trace of ping output tested against ten (10) different IP addresses. 
 3. Execution trace of traceroute output tested against the same ten (10) IP addresses.
-4. Spreadsheet containing all ping and traceroute performance data.
-5. Ping analysis: scatterplot plus answers to the two associated questions.
-6. Traceroute analysis: scatterplot plus answers to the two associated questions.
+4. Ping analysis: scatterplot plus answers to the two associated questions.
+5. Traceroute analysis: scatterplot plus answers to the two associated questions.
+6. Spreadsheet containing all ping and traceroute performance data.
+
+You are strongly encouraged to combine deliverables 2 through 5 into a single Word / Google Doc / PDF document. Your Python code and your spreadsheet should be submitted as separate files. Ideally, all of these materials will be collected in a single Github repository, and you will supply the repository link to Gradescope when making your submission.
 
 ## Teamwork Policy
 For this project, students are permitted to team up in pairs and submit joint work. Both partners should fully understand all work products that are submitted.
