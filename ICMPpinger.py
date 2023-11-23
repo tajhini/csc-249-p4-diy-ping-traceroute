@@ -65,6 +65,7 @@ def receiveOnePing(mySocket, ID, timeout, destAddr):
         #---------------#
 
             # TODO: Fetch the ICMP header from the IP packet
+            # Soluton can be implemented in 6 lines of Python code.
 
         #-------------#
         # Fill in end #
