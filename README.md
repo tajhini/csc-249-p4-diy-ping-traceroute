@@ -117,11 +117,7 @@ If it's the last week of classes and you haven't been able to get your ping and/
 * If you can't get your `traceroute` application running, do the traceroute-related performance analysis described in **Part 3** using the built-in `tracert` application that comes with your computer.
 * In your final project submission, document clearly whether your ping and traceroute analyses used your own code or the built-in applications.
 
-Plan B submissions will receive lower grades, as follows:
-
-* If you were able to implement either `ping` or `traceroute` but not both, your final project score will be capped at 12 out of 15 (letter-grade equivalent of B-).
-* If you were unable to implement both `ping` and `traceroute`, your final project score will be capped at 11.5 out of 15 (letter-grade equivalent of C+).
-* Additional points may be deducted based on assessment of your analysis results.
+Plan B submissions will receive lower grades; see the Grading Rubric.
 
 ## Grading Rubric
 
@@ -139,4 +135,4 @@ _12/15_ (B-) Only one of `ping` or `traceroute` implementations function and beh
 
 _11.5/15_ (C+) Neither `ping` nor `traceroute` implementations function. Analyses are derived from built-in applications but are otherwise complete and reflect breadth and depth of understanding of the underlying networking factors that might explain the observations.
 
-_11/15 or less_ (C or lower)
+_11/15 or less_ (C or lower) Missing deliverables. Code that doesn't run. Analyses that are incomplete, inaccurate, and/or reflect poor or limited understanding of the associated networking factors.
