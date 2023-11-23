@@ -78,7 +78,7 @@ At this point, you have built your own `ping` and `traceroute` utilities, tested
 2. Why do you think you observe this trend (or lack thereof)?
 
 ## Deliverables
-Your work on this project must be submitted for grading on the last day of classes - THURSDAY DECEMBER 14th at 11:59PM. Because this is the last day of the class before finals, **no extensions will be available.** Work submitted after the due date will not be graded and will receive a score of zero. 
+Your work on this project must be submitted for grading on the last day of classes - **THURSDAY DECEMBER 14th at 11:59PM**. Because this is the last day of the class before finals, **no extensions will be available.** Work submitted after the due date will not be graded and will receive a score of zero. Seriously.
 
 All work must be submitted via Gradescope. This project counts for 15 points towards your final course grade.
 
@@ -93,6 +93,15 @@ You must submit these work products:
 
 ## Teamwork Policy
 For this project, students are permitted to team up in pairs and submit joint work. Both partners should fully understand all work products that are submitted.
+
+## Tips for Success
+
+Want to ace this project? Then do these things:
+
+* Read about ICMP in our Network+ text, pp. 189-190.
+* Review the RFC (specification) for ICMP at this link: https://www.rfc-editor.org/rfc/rfc792.
+* Study the Wireshark captures for ping and traceroute messages included in this Github repository.
+* Don't wait until the last week of classes to start this project.
 
 ## Grading Rubric
 
