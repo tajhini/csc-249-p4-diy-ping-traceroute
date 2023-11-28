@@ -111,7 +111,7 @@ Want to ace this project? Then do these things:
 * Read the starter code carefully to make sure you fully understand each line. If there is any code whose meaning is unfamiliar to you, look it up in the Python documentation. Also, try running the code under a debugger or from an interactive Python session.
 * Don't wait until the last week of classes to start this project.
 
-## Option: Plan B
+## What to do if your PING or TRACEROUTE applications do not work
 
 If it's the last week of classes and you haven't been able to get your ping and/or traceroute applications running, and it seems unlikely that you'll be able to complete those portions of thie project, then you may consider `Plan B` as follows:
 
