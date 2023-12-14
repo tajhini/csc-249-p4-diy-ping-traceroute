@@ -30,7 +30,17 @@ def build_packet():
         # TODO: Make the header in a similar way to the ping exercise.
         # Append checksum to the header.
         # Solution can be implemented in 10 lines of Python code.
-        
+    # Code taken from ICMPpinger.py written by Prof Cheikes
+    ID = os.getpid() & 0xFFFF
+    myChecksum = 0
+    header = struct.pack("bbHHh", ICMP_ECHO_REQUEST, 0, myChecksum, ID, 1) 
+    data = struct.pack("d", time.time())
+    myChecksum = checksum(''.join(map(chr, header+data)))
+    if sys.platform == 'darwin':
+        myChecksum = htons(myChecksum) & 0xffff
+    else:
+        myChecksum = htons(myChecksum)
+    header = struct.pack("bbHHh", ICMP_ECHO_REQUEST, 0, myChecksum, ID, 1) 
     #-------------#
     # Fill in end #
     #-------------#
@@ -48,10 +58,11 @@ def get_route(hostname):
             #---------------#
             # Fill in start #
             #---------------#
-
                 # TODO: Make a raw socket named mySocket
                 # Solution can be implemented in 2 lines of Python code.
-
+            # Code taken from ICMPpinger.py written by Prof Cheikes
+            icmp = getprotobyname("icmp")
+            mySocket = socket(AF_INET, SOCK_RAW, icmp)
             #-------------#
             # Fill in end #
             #-------------#
@@ -64,6 +75,7 @@ def get_route(hostname):
                 mySocket.sendto(d, (hostname, 0))
                 t= time.time()
                 startedSelect = time.time()
+                timeLeft = max(0, timeLeft)
                 whatReady = select.select([mySocket], [], [], timeLeft)
                 howLongInSelect = (time.time() - startedSelect)
 
@@ -84,9 +96,9 @@ def get_route(hostname):
                 #---------------#
                 # Fill in start #
                 #---------------#
-
                     #TODO: Fetch the icmp type from the IP packet
                     # Solution can be implemented in 2 lines of Python code.
+                types = recvPacket[20]
 
                 #-------------#
                 # Fill in end #

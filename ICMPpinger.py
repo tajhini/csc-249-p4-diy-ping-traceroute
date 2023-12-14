@@ -62,25 +62,28 @@ def receiveOnePing(mySocket, ID, timeout, destAddr):
         #---------------#
         # Fill in start #
         #---------------#
-
             # TODO: Fetch the ICMP header from the IP packet
             # Soluton can be implemented in 6 lines of Python code.
+        # Fetches header
         icmpHeader = recPacket[20:28]
+        # Separates header
         icmpType, code, checksum, packID, sequence = struct.unpack("bbHHh", icmpHeader)
+        # Retrieves time sent
         timeSent = struct.unpack("d", recPacket[28:])
         timeSent = timeSent[0]
-        timeTaken = (timeReceived - timeSent)*1000
+        timeTaken = (timeReceived - timeSent)
         TTL = recPacket[8]
+        if icmpType == 0: 
+            # timeTaken into ms
+            return timeTaken*1000
         #-------------#
         # Fill in end #
         #-------------#
         timeLeft = timeLeft - howLongInSelect 
-        return timeTaken
-		
         
         if timeLeft <= 0:
             return "Request timed out."
-
+    
 def sendOnePing(mySocket, destAddr, ID):
     # Header is type (8), code (8), checksum (16), id (16), sequence (16)
     myChecksum = 0
@@ -133,7 +136,7 @@ def ping(host, timeout=1, repeat=3):
     numPings = 1
     while (numPings <= repeat) :
         delay = doOnePing(dest, timeout) 
-        print(f"Ping {numPings} RTT {delay} msec")
+        print(f"Ping {numPings} RTT {delay} ms")
         time.sleep(1) # one second 
         numPings += 1
     return delay
