@@ -1,0 +1,40 @@
+Pinging uc.edu [129.137.4.225] 3 times using Python:
+Ping 1 RTT 50.724029541015625 ms
+Ping 2 RTT 30.51924705505371 ms
+Ping 3 RTT 29.968738555908203 ms
+Pinging duke.edu [152.3.72.197] 3 times using Python:
+Ping 1 RTT 58.20155143737793 ms
+Ping 2 RTT 41.86439514160156 ms
+Ping 3 RTT 124.72844123840332 ms
+Pinging byu.edu [128.187.16.184] 3 times using Python:
+Ping 1 RTT 81.4669132232666 ms
+Ping 2 RTT 82.8554630279541 ms
+Ping 3 RTT 85.59894561767578 ms
+Pinging uvm.edu [132.198.101.197] 3 times using Python:
+Ping 1 RTT 40.72451591491699 ms
+Ping 2 RTT 14.292478561401367 ms
+Ping 3 RTT 9.359359741210938 ms
+Pinging rice.edu [128.42.207.44] 3 times using Python:
+Ping 1 RTT 57.25669860839844 ms
+Ping 2 RTT 33.46061706542969 ms
+Ping 3 RTT 52.40678787231445 ms
+Pinging uh.cu [181.225.235.160] 3 times using Python:
+Ping 1 RTT 165.18640518188477 ms
+Ping 2 RTT 127.51984596252441 ms
+Ping 3 RTT 129.119873046875 ms
+Pinging cam.ac.uk [128.232.132.8] 3 times using Python:
+Ping 1 RTT 206.14194869995117 ms
+Ping 2 RTT 109.89236831665039 ms
+Ping 3 RTT 90.72613716125488 ms
+Pinging louvre.fr [89.185.38.205] 3 times using Python:
+Ping 1 RTT 98.09279441833496 ms
+Ping 2 RTT 93.52850914001465 ms
+Ping 3 RTT 103.85322570800781 ms
+Pinging ku.dk [130.226.237.173] 3 times using Python:
+Ping 1 RTT 130.3870677947998 ms
+Ping 2 RTT 121.86837196350098 ms
+Ping 3 RTT 129.5022964477539 ms
+Pinging uonbi.ac.ke [41.204.161.206] 3 times using Python:
+Ping 1 RTT 282.40156173706055 ms
+Ping 2 RTT 327.97741889953613 ms
+Ping 3 RTT 331.67409896850586 ms

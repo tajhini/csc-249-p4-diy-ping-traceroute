@@ -1,0 +1,17 @@
+Sources:
+
+https://www.hackingarticles.in/understanding-guide-icmp-protocol-wireshark/
+
+https://www.gci.com/support/support-articles/internet_how-to-ping-a-website#:~:text=Hold%20down%20the%20Windows%20key,domain%20name%2C%20then%20press%20Enter.
+
+https://en.wikipedia.org/wiki/Internet_Protocol_version_4#Packet_structure
+
+https://docs.python.org/3/library/struct.html
+
+https://docs.python.org/3/library/binascii.html
+
+https://docs.python.org/3/library/struct.html
+
+https://sock-raw.org/papers/sock_raw
+
+https://www.rfc-editor.org/rfc/rfc792

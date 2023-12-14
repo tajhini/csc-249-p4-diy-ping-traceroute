@@ -144,5 +144,18 @@ def ping(host, timeout=1, repeat=3):
 # Runs program
 if __name__ == "__main__":
     # get target address from command line
-    target = sys.argv[1]
-    ping(target)
+    #target = sys.argv[1]
+
+
+    bloop = ["uc.edu",
+"duke.edu",
+"byu.edu",
+"uvm.edu",
+"rice.edu",
+"uh.cu",
+"cam.ac.uk",
+"louvre.fr",
+"ku.dk",
+"uonbi.ac.ke"]
+    for target in bloop:
+        ping(target)

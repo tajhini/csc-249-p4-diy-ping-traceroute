@@ -1,0 +1,212 @@
+Running trace on uc.edu [129.137.4.225]
+ 1 rtt=18 ms 131.229.199.254
+ 2 rtt=53 ms 131.229.11.142
+ 3 rtt=12 ms 131.229.10.104
+ 4 rtt=7 ms 134.241.249.33
+ 5 rtt=16 ms 69.16.1.33
+ 6 rtt=3 ms 18.2.8.89
+ 7 rtt=13 ms 192.5.89.254
+ 8 rtt=19 ms 163.253.1.21
+ 9 rtt=25 ms 163.253.2.144
+ * * * Request timed out.
+ 10 rtt=30 ms 163.253.2.164
+ 11 rtt=16 ms 198.71.45.146
+ 12 rtt=22 ms 192.148.242.242
+ 13 rtt=15 ms 129.137.1.4
+ * * * Request timed out.
+ * * * Request timed out.
+ * * * Request timed out.
+ * * * Request timed out.
+ * * * Request timed out.
+ * * * Request timed out.
+ * * * Request timed out.
+ * * * Request timed out.
+ * * * Request timed out.
+ 18 rtt=17 ms 129.137.4.225
+Running trace on duke.edu [152.3.72.197]
+ 1 rtt=7 ms 131.229.199.254
+ 2 rtt=14 ms 131.229.11.142
+ 3 rtt=23 ms 131.229.10.104
+ 4 rtt=6 ms 134.241.249.33
+ 5 rtt=9 ms 69.16.1.33
+ 6 rtt=5 ms 18.2.8.89
+ 7 rtt=6 ms 192.5.89.57
+ 8 rtt=7 ms 192.5.89.222
+ * * * Request timed out.
+ 9 rtt=20 ms 163.253.1.44
+ 10 rtt=20 ms 163.253.1.116
+ 11 rtt=27 ms 163.253.2.85
+ 12 rtt=20 ms 198.71.46.186
+ 13 rtt=25 ms 128.109.9.34
+ 14 rtt=23 ms 128.109.1.242
+ * * * Request timed out.
+ * * * Request timed out.
+ * * * Request timed out.
+ * * * Request timed out.
+ * * * Request timed out.
+ * * * Request timed out.
+ * * * Request timed out.
+ * * * Request timed out.
+ * * * Request timed out.
+ * * * Request timed out.
+ * * * Request timed out.
+ * * * Request timed out.
+ 21 rtt=37 ms 152.3.72.197
+Running trace on byu.edu [128.187.16.184]
+ 1 rtt=13 ms 131.229.199.254
+ 2 rtt=14 ms 131.229.11.142
+ 3 rtt=20 ms 131.229.10.104
+ 4 rtt=6 ms 134.241.249.33
+ 5 rtt=5 ms 69.16.1.33
+ 6 rtt=8 ms 18.2.8.89
+ 7 rtt=13 ms 192.5.89.254
+ 8 rtt=66 ms 163.253.1.21
+ 9 rtt=65 ms 163.253.2.17
+ 10 rtt=65 ms 163.253.2.18
+ 11 rtt=66 ms 163.253.1.245
+ 12 rtt=66 ms 163.253.1.242
+ 13 rtt=64 ms 163.253.1.171
+ 14 rtt=65 ms 163.253.1.152
+ 15 rtt=66 ms 163.253.5.7
+ 16 rtt=62 ms 140.197.249.81
+ 17 rtt=62 ms 140.197.251.32
+ 18 rtt=95 ms 140.197.246.47
+ 19 rtt=65 ms 10.33.32.2
+ 20 rtt=80 ms 10.33.118.66
+ 21 rtt=64 ms 128.187.16.184
+Running trace on uvm.edu [132.198.101.197]
+ 1 rtt=32 ms 131.229.199.254
+ 2 rtt=21 ms 131.229.11.142
+ 3 rtt=21 ms 131.229.10.104
+ 4 rtt=4 ms 134.241.249.33
+ 5 rtt=15 ms 69.16.1.33
+ 6 rtt=5 ms 18.2.8.89
+ 7 rtt=9 ms 192.5.89.57
+ 8 rtt=12 ms 18.2.0.150
+ 9 rtt=93 ms 132.198.255.129
+ 10 rtt=13 ms 132.198.255.1
+ 11 rtt=14 ms 132.198.200.19
+ 12 rtt=17 ms 132.198.207.3
+ 13 rtt=12 ms 132.198.200.46
+ 14 rtt=14 ms 132.198.101.197
+Running trace on rice.edu [128.42.207.44]
+ 1 rtt=6 ms 131.229.199.254
+ 2 rtt=24 ms 131.229.11.142
+ 3 rtt=21 ms 131.229.10.104
+ 4 rtt=5 ms 134.241.249.33
+ 5 rtt=5 ms 69.16.1.33
+ 6 rtt=5 ms 18.2.8.89
+ 7 rtt=14 ms 192.5.89.254
+ 8 rtt=43 ms 163.253.1.21
+ 9 rtt=44 ms 163.253.2.144
+ 10 rtt=43 ms 163.253.2.164
+ 11 rtt=44 ms 163.253.2.31
+ 12 rtt=45 ms 163.253.2.0
+ 13 rtt=51 ms 163.253.2.14
+ 14 rtt=44 ms 163.253.2.24
+ 15 rtt=45 ms 74.200.187.54
+ 16 rtt=47 ms 74.200.187.46
+ 17 rtt=44 ms 198.32.229.137
+ 18 rtt=44 ms 198.32.229.138
+ 19 rtt=48 ms 128.42.179.17
+ 20 rtt=54 ms 10.128.191.9
+ 21 rtt=49 ms 172.16.191.237
+ 22 rtt=47 ms 172.16.199.238
+ 23 rtt=48 ms 10.143.199.6
+ 24 rtt=45 ms 128.42.207.44
+Running trace on uh.cu [181.225.235.160]
+ 1 rtt=11 ms 131.229.199.254
+ 2 rtt=33 ms 131.229.11.142
+ 3 rtt=27 ms 131.229.10.104
+ 4 rtt=3 ms 134.241.249.33
+ 5 rtt=9 ms 69.16.1.33
+ 6 rtt=16 ms 65.175.24.205
+ 7 rtt=54 ms 89.149.186.217
+ 8 rtt=27 ms 65.175.1.30
+ 9 rtt=88 ms 89.221.37.172
+ 10 rtt=135 ms 89.221.37.151
+ 11 rtt=129 ms 200.0.16.17
+ 12 rtt=130 ms 200.0.16.23
+ 13 rtt=113 ms 200.0.16.31
+ * * * Request timed out.
+ * * * Request timed out.
+ * * * Request timed out.
+ * * * Request timed out.
+ 16 rtt=119 ms 181.225.235.160
+Running trace on cam.ac.uk [128.232.132.8]
+ 1 rtt=10 ms 131.229.199.254
+ 2 rtt=120 ms 131.229.11.142
+ 3 rtt=25 ms 131.229.10.104
+ 4 rtt=6 ms 134.241.249.33
+ 5 rtt=9 ms 69.16.1.33
+ 6 rtt=9 ms 18.2.8.89
+ 7 rtt=11 ms 192.5.89.57
+ 8 rtt=15 ms 192.5.89.222
+ 9 rtt=17 ms 163.253.1.44
+ 10 rtt=87 ms 198.71.45.237
+ 11 rtt=97 ms 62.40.98.106
+ 12 rtt=97 ms 62.40.98.64
+ 13 rtt=99 ms 62.40.124.198
+ 14 rtt=101 ms 146.97.33.18
+ 15 rtt=99 ms 146.97.35.246
+ 16 rtt=101 ms 146.97.41.38
+ 17 rtt=103 ms 131.111.7.82
+ 18 rtt=104 ms 193.60.88.6
+ 19 rtt=104 ms 193.60.88.6
+ 20 rtt=115 ms 128.232.128.6
+ 21 rtt=104 ms 128.232.128.10
+ 22 rtt=107 ms 128.232.132.8
+Running trace on louvre.fr [89.185.38.205]
+ 1 rtt=10 ms 131.229.199.254
+ 2 rtt=14 ms 131.229.11.142
+ 3 rtt=23 ms 131.229.10.104
+ 4 rtt=19 ms 134.241.249.33
+ 5 rtt=3 ms 69.16.1.33
+ 6 rtt=15 ms 65.175.24.205
+ 7 rtt=11 ms 89.149.130.30
+ 8 rtt=16 ms 4.68.37.109
+ 9 rtt=87 ms 4.69.143.178
+ 10 rtt=88 ms 213.242.120.70
+ 11 rtt=88 ms 212.43.193.161
+ 12 rtt=97 ms 212.43.193.101
+ 13 rtt=103 ms 212.43.193.149
+ 14 rtt=97 ms 89.185.58.93
+ 15 rtt=99 ms 89.185.38.205
+Running trace on ku.dk [130.226.237.173]
+ 1 rtt=15 ms 131.229.199.254
+ 2 rtt=15 ms 131.229.11.142
+ 3 rtt=22 ms 131.229.10.104
+ 4 rtt=5 ms 134.241.249.33
+ 5 rtt=6 ms 69.16.1.33
+ 6 rtt=9 ms 18.2.8.89
+ 7 rtt=16 ms 192.5.89.57
+ 8 rtt=17 ms 192.5.89.222
+ 9 rtt=22 ms 163.253.1.40
+ 10 rtt=34 ms 109.105.98.9
+ 11 rtt=102 ms 109.105.97.65
+ 12 rtt=105 ms 109.105.97.74
+ 13 rtt=109 ms 109.105.97.2
+ 14 rtt=112 ms 109.105.97.248
+ 15 rtt=116 ms 109.105.102.161
+ 16 rtt=111 ms 192.38.111.154
+ * * * Request timed out.
+ * * * Request timed out.
+ * * * Request timed out.
+ * * * Request timed out.
+ 19 rtt=110 ms 130.226.237.173
+Running trace on uonbi.ac.ke [41.204.161.206]
+ 1 rtt=12 ms 131.229.199.254
+ 2 rtt=8 ms 131.229.11.142
+ 3 rtt=29 ms 131.229.10.104
+ 4 rtt=6 ms 134.241.249.33
+ 5 rtt=7 ms 69.16.1.33
+ 6 rtt=7 ms 18.2.8.89
+ 7 rtt=8 ms 192.5.89.57
+ 8 rtt=15 ms 192.5.89.222
+ 9 rtt=18 ms 163.253.1.42
+ 10 rtt=80 ms 196.32.209.233
+ 11 rtt=82 ms 196.32.210.93
+ 12 rtt=85 ms 196.32.210.57
+ 13 rtt=224 ms 197.136.176.58
+ 14 rtt=224 ms 197.136.172.81
+ 15 rtt=225 ms 41.204.161.206
